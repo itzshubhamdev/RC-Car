@@ -6,16 +6,21 @@ A custom 3D printable RC car with 150 RPM BO Motors and Servo Motors for rotatio
 
 This was my first kinematics (movable parts) projects so I wanted to keep it as simple as possible, that's why used BO Motors instead of high power motors, and used servo for rotating instead of other options.
 
-## Electronics
+## Wiring Disgram
 
-![Electronics](./Images/Electronics.png)
+## Using TB6612FNG
+
+![TB6612FNG](https://github.com/user-attachments/assets/6b612ad5-0f4e-49a1-b8ef-48541f648648)
+
+## Using DRV8833
+![DRV8833](https://github.com/user-attachments/assets/2e8de107-597b-4121-8dff-97d465e9a02c)
 
 ## Bill Of Materials
 
 |Name                                                       |Purpose                                       |Quantity|Total Cost (USD)|Link                                                                                                                                                   |Distributor|
 |-----------------------------------------------------------|----------------------------------------------|--------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
 |Motor Driver                                               |To control the movement of the motors.        |1       |1.50            |https://robocraze.com/products/tb6612fng-dual-dc-motor-driver                                                                                          |RoboCraze  |
-|AMS1117 5V                                                 |To convert the battery output of 7.4V into 5V.|1       |0.20            |https://makerbazar.in/products/ams1117-step-down-power-supply-module?variant=46270092148976                                                            |MakerBazar |
+|5V  Step Down                                              |To convert the battery output of 7.4V into 5V.|1       |0.60            |https://robu.in/product/dc-dc-3a-5v-12v-24v-to-5v-step-down-power-supply-module                                                                                                    |Robu       |
 |ESP32                                                      |To control all the components                 |1       |4.00            |https://robocraze.com/products/nodemcu-32-wifi-bluetooth-esp32-development-board30-pin?variant=42268194046176                                          |RoboCraze  |
 |Battery Protection Board                                   |To protect the battery from Over Protection   |1       |0.90            |https://makerbazar.in/products/18650-bms-lithium-battery-protection-board?variant=48251032961264                                                       |MakerBazar |
 |Battery Charger Module                                     |To the charge the batteries                   |1       |0.95            |https://makerbazar.in/products/green-type-c-multi-cell-2s-3s-4s-to-8-4v-12-6v-16-8v-step-up-boost-lithium-battery-charger-module?variant=47464000323824|MakerBazar |
